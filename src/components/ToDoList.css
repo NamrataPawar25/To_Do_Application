@@ -1,0 +1,33 @@
+/* Gradient background */
+.todo-bg {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Search input styling */
+.search-input {
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Task card hover effect */
+.task-card {
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Read more link */
+.read-more {
+  color: #2575fc;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
